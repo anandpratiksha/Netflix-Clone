@@ -8,7 +8,6 @@ function Row({ title , fetchUrl , isLargeRow}) {
     const [movies, setMovies] = useState([]);
 
     // A Snippet of code which runs based on a specific conditions/variable
-
     useEffect(() =>{
         // if [] , run once when the row loads & dont run again
         async function fetchdata(){
